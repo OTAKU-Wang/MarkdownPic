@@ -5,7 +5,7 @@
 - 查看[api-gateway](http://118.190.145.142:18010/info)服务的地址
 - 调用获取token的服务接口
 ```
-curl -XPOST 'http://118.190.145.142:18080/oauth2-service/oauth2/getToken' -d 'appid=10010000&secret=e66d2d3cd0534de82e158be6550b1e35'
+curl -XPOST 'http://${服务器地址}:18080/oauth2-service/oauth2/getToken' -d 'appid=10010000&secret=e66d2d3cd0534de82e158be6550b1e35'
 ```
 
 参数 | 类型 |是否必填 |	最大长度|描述|示例值
