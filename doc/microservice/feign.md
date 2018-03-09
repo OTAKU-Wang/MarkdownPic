@@ -95,7 +95,7 @@ eureka.client.service-url.defaultZone=http://localhost:1111/eureka/
 
 ## 测试
 
-做完上面的操作之后，依次启动eureka-server、provider和feign-consumer，然后访问如下地址：http://localhost:2005/hello，访问结果如下：
+做完上面的操作之后，依次启动eureka-server、provider和feign-consumer，然后访问如下地址：http://localhost:2005/hello 访问结果如下：
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/GvtDGKK4uYnG6clUSNI5WQNpdKcMPcic28XZK491hXDMbeMXssgVg3jT95VDnsHWnrgXfXIFx2mMVS5qxESamBA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
