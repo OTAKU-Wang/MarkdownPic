@@ -20,6 +20,16 @@ http请求方式：POST（请使用https协议）：
 
 header头需要设置为:`application/json;charset=UTF-8`
 
+参数名|类型|说明
+---|---|---
+服务名|String|在eureka上注册的服务名
+api地址|String|请求的restful api地址
+appid	|string|	云平台分配给使用方的appid
+sign	|string	|输入参数计算后的签名结果
+timestamp|	long|	进行接口调用时的时间戳，即当前时间戳（时间戳：当前距离1970年1月1日 以秒计算的时间，即unix-timestamp）
+nonce	|string	|随机字符串，最大长度32
+token	|string	|OAuth认证成功后，生成的Access Token
+
 # 计算签名
 
 - 对参数进行排序将所有的参数（sign除外）按照参数名ASCII码从小到大排序（字典序），并用&连接。
